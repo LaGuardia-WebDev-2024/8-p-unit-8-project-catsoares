@@ -5,6 +5,11 @@ setup = function() {
     
     drawFish(200, 200, color(200,0,200)); 
     drawFish(300, 200, color(0,200,200));
+    drawFish(150,200)
+    
+    drawFish(200, 200, color(200,0,200)); 
+    drawFish(300, 200, color(0,200,200));
+    drawFish(150,200)
 };
 
 //🟢draw Function - will run on repeat
@@ -21,8 +26,20 @@ mouseClicked = function(){
 var drawFish = function(fishX, fishY, fishColor){
   textSize(80);
   fill(fishColor);
-  text("𓆝", fishX, fishY);
+  text("𓆝", fishX, fishY)
+  text("🐳", fishX, fishY)
+  text("🐠", fishX, fishY);
 };
+
+//🟡drawFish Function - will run when called
+var drawFish = function(fishX, fishY, fishColor){
+  textSize(80);
+  fill(fishColor);
+  text("🐚", fishX, fishY)
+  text("🐚", fishX, fishY)
+  text("🐚", fishX, fishY);
+};
+
 
 
 
