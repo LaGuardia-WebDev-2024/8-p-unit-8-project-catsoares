@@ -41,7 +41,7 @@ var drawShell = function(shellX, shellY){
 
 //drawFish2 Function - will run when called
 var drawFish2 = function(fish2X,fish2Y){
-textSize(60);
+textSize(40);
 text("🐠",fish2X,fish2Y);
 };
 
